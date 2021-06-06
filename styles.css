@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-image: url(https://wallpaperaccess.com/full/1567665.png);
+  background-repeat: repeat-y;
+  padding: 0 16px;
+}
+
+header {
+  background-color: cyan(34, 35, 68, 52);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header a {
+  color: cyan;
+}
+header h1 {
+  color: cyan;
+  font-family: "Mate SC", serif;
+  font-weight: 200;
+}
+
+footer {
+  position: static;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: grey;
+}
+.main {
+  margin-top: 40px;
+}
+
+.main p {
+  display: flex;
+  background-color: rgb(37, 36, 36);
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+.introduction {
+  display: flex;
+  background-color: rgb(37, 36, 36);
+  border-radius: 15px;
+  margin: 100px;
+  padding: 50px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.introduction p {
+  color: cyan;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.note {
+  color: white;
+}
+.note p {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.note h4 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
