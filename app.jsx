@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./header.jsx";
 import Introduction from "./introduction.jsx";
 import Footer from "./footer.jsx";
-import Main from "./main1.jsx";
+import Main from "./main.jsx";
 import Note from "./note.jsx";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Introduction />
       <Note />
-      <Main1 />
+      <Main />
       <Footer />
     </div>
   );
