@@ -1,9 +1,9 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 
-function Main1() {
+function Main() {
   return (
-    <div className="main1">
+    <div className="main">
       <Grid item xs={12} container spacing={8}>
         <Grid item xs={12} md={3}>
           <iframe
@@ -106,7 +106,7 @@ function Main1() {
   );
 }
 
-export default Main1;
+export default Main;
 
 // xs=mobile screen
 // sm=tablet
